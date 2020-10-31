@@ -1,7 +1,6 @@
 *.log
 *.pot
 *.pyc
-*.pdf
 __pycache__/
 local_settings.py
 /static/
