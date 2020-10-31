@@ -1,0 +1,64 @@
+/* This is a partial blocks.css, you need to add more rules
+   to this file to complete the assignment.  Do not add any CSS
+   styling to the original index.htm / start.htm */
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/*
+ * Important: The following settings are only for this assignment!
+*/
+
+div {
+    /* Requirement 1: 5 pixel borders */
+    border-style: solid;
+    border-width: 5px;
+    /* Requirement 2: 5 pixels of margin and padding */
+    margin: 5px;
+    padding: 5px;
+    /* Requirement 3: Using fixed positioning */
+    position: fixed;
+    /* Requirement 4: Make the boxes width be 25% of body */
+    width: 25%;
+}
+
+#one {
+    border-color: blue;
+    bottom: 0;
+    right: 0;
+}
+
+#two {
+    border-color: orange;
+    top: 0;
+    right: 0;
+}
+
+#three {
+    border-color: green;
+    top: 0;
+    left: 0;
+}
+
+#four {
+    border-color: yellow;
+    bottom: 0;
+    left: 0;
+}
+
+#link {
+    top: 0;
+    right: 50%;
+    position: fixed;
+    /* Requirement 5: Using styles in BrainyQuote */
+    background-color: #3d59c6;
+}
+
+/* font family the same as body's */
+#link a {
+    font-size: 14px;
+    color: #fefefe;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #3c58c7;
+}
