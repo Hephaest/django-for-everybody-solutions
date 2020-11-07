@@ -1,7 +1,7 @@
 # Coursera: Django For Everybody
 
 ```diff
--  DO NOT JUST COPY THE CODE.
+-  DO NOT JUST COPY THE CODE!
 -  MAKE SURE FINISH BY YOURSELF AT FIRST!
 ```
 
